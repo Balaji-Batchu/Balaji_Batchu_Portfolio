@@ -25,7 +25,7 @@ export const Code = () =>{
     return(
         <>
          {loading ? <Loading /> :
-        <div className="flex bg-space-patter bg-no-repeat bg-cover">
+        <div className="flex">
         {/* side bar */}
             <div className="flex flex-col h-screen py-3 bg-gradient-to-t from-[#331374ff] via-[#190e6aff] to-[#150a56ff] shadow w-40 items-center justify-between py-2">
                 <div className="space-y-3">

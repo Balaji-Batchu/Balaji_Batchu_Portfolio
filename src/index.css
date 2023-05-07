@@ -22,6 +22,8 @@ body {
     background-color: #331374ff;
     background-image: url('../spaces (1).jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
     display: block;
 }
