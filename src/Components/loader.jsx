@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { PacmanLoader } from "react-spinners";
 
-function Loading() {
+export const Loading = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -14,5 +14,3 @@ function Loading() {
     </div>
   );
 }
-
-export default Loading;

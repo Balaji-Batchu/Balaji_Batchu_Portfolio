@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaDownload, FaSpinner, FaCheck } from "react-icons/fa";
-import resume from '../../BALAJI_BATCHU_Resume.pdf'
+import resume from '../../public/resumes/BALAJI_BATCHU_Resume.pdf'
 
 function DownloadButton() {
   const [downloadState, setDownloadState] = useState("idle");

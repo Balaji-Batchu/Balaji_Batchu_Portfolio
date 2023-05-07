@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Logo from '../../named-logo.png'
+import Logo from '../../public/named-logo.png'
 import {IoIosHome} from 'react-icons/io'
 import {CgProfile} from 'react-icons/cg'
 import {IoMdMail} from 'react-icons/io'
@@ -7,7 +7,7 @@ import {FaLinkedin} from 'react-icons/fa'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {BsCodeSlash} from 'react-icons/bs'
 import {ContactSide} from './contactPart.jsx'
-import Loading from './loader'
+import {Loading} from './loader'
 import {useState, useEffect} from 'react'
 
 export const Contact = () =>{
@@ -44,7 +44,7 @@ export const Contact = () =>{
 
                 <div>
                     <a target="_blank" href='https://www.linkedin.com/in/balajibatchu'><FaLinkedin className="text-gray-300 mx-10 my-8 hover:text-blue-400" size="24"/></a>
-                    <a target="_blank" href="https://www.github.com/Balaji507"><AiOutlineGithub className="text-gray-300 mx-10 my-8 hover:text-white" size="24"/></a>
+                    <a target="_blank" href="https://www.github.com/Balaji-Batchu"><AiOutlineGithub className="text-gray-300 mx-10 my-8 hover:text-white" size="24"/></a>
                 </div>
             </div>
             {/* main content */}

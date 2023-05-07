@@ -19,14 +19,23 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
     color: #444;
-    background-color: #331374ff;
-    background-image: url('../spaces (1).jpg');
+    /* background-image: url('../public/galaxy.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
     display: block;
 }
+
+/* for desktop */
+@media (min-width: 768px) {
+  body {
+    background-image: url('../public/spaces.jpg');
+    background-color: #331374ff;
+    /* other styles */
+  }
+}
+
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

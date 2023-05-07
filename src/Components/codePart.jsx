@@ -5,23 +5,27 @@ import {motion} from 'framer-motion'
 const projects = [
   {
     title: 'Prathidhi Naivedhya',
-    imageSrc: '../../prathidhi-naivedhya.PNG',
-    link: 'https://github.com/Balaji507/Prathidhi_Naivedhya'
+    imageSrc: '../../public/prathidhi-naivedhya.PNG',
+    link: 'https://github.com/Balaji-Batchu/Prathidhi_Naivedhya',
+    live_link: 'https://prathidhi-naivedhya.netlify.app'
   },
   {
     title: 'A.I Summarizer',
-    imageSrc: '../../A.I GEN.png',
-    link: 'https://github.com/Balaji-Batchu/Summarizer.io'
+    imageSrc: '../../public/A.I_GEN.png',
+    link: 'https://github.com/Balaji-Batchu/Summarizer.io',
+    live_link: 'https://ai-summarizer.netlify.app'
   },
   {
     title: 'FoodApp',
-    imageSrc: '../../foodapp.png',
-    link: 'https://github.com/Balaji-Batchu/FoodApp'
+    imageSrc: '../../public/foodapp.png',
+    link: 'https://github.com/Balaji-Batchu/FoodApp',
+    live_link: 'https://foodapp.netlify.app'
   },
   {
     title: 'Tenzies Game',
-    imageSrc: '../../tenzies.PNG',
-    link: 'https://github.com/Balaji-Batchu/Tenzies-Game'
+    imageSrc: '../../public/tenzies.PNG',
+    link: 'https://github.com/Balaji-Batchu/Tenzies-Game',
+    live_link: 'https://tenzies.netlify.app'
   },
 ];
 
@@ -42,12 +46,13 @@ export const CodeSide = () => {
             className="bg-white rounded-lg h-84 shadow-lg shadow-[#8d57c2ff] outline outline-offset-1 mb-4 mx-2 outline-purple-400 overflow-hidden hover:cursor-pointer"
             key={index}>
               <motion.img 
-            // whileHover={{ scale: [0.9,0.7,0.9] }}
-            transition={{ duration: 0.2 }}              
+              transition={{ duration: 0.2 }}              
               className="w-full h-64 rounded-lg object-cover" src={project.imageSrc} alt={project.title} />
               <div className="p-4">
                 <h2 className="text-xl font-bold mb-2">{project.title}</h2>
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">{project.link}</a>
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"><span className='text-black'>repo link: </span>{project.link}</a>
+                <br />
+                <a href={project.live_link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"><span className='text-black'>Live link: </span>{project.live_link}</a>
               </div>
             </motion.div>
           ))}

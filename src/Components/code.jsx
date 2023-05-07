@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Logo from '../../named-logo.png'
+import Logo from '../../public/named-logo.png'
 import {IoIosHome} from 'react-icons/io'
 import {CgProfile} from 'react-icons/cg'
 import {IoMdMail} from 'react-icons/io'
@@ -8,7 +8,7 @@ import {AiOutlineGithub} from 'react-icons/ai'
 import {CodeSide} from './codePart'
 import {BsCodeSlash} from 'react-icons/bs'
 import {useState, useEffect} from 'react'
-import Loading from './loader'
+import {Loading} from './loader'
 
 export const Code = () =>{
     const [loading, setLoading] = useState(true);

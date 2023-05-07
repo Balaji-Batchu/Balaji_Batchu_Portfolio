@@ -4,8 +4,8 @@ import {BouncyText} from './bounce'
 import emailjs from '@emailjs/browser';
 import {IoIosSend} from 'react-icons/io'
 import {Notification} from './notification';
-import contact from '../../contacts.png'
-import developers from '../../developers.png'
+import developers from '../../public/developers.png'
+//import contact from '../../public/contacts.png'
 
 export const ContactSide = () =>{
   const form = useRef();
@@ -19,13 +19,16 @@ export const ContactSide = () =>{
       console.log(result.text);
       form.current.reset();
       setPopup(true);
+      setTimeout(()=>{
+        setPopup(false)
+      },3000)
     }, (error) => {
       console.log(error.text);
     });
   };
     return(
         <div className='flex bg-space-pattern bg-cover bg-no-repeat'>
-        <div className="mx-36 flex flex-col w-6/12">
+        <div className="ml-36 flex flex-col w-6/12">
             {popup && <Notification message="Message Sent Successfully" />}
             <div className=" flex flex-col mt-6 mb-2 ">
                 <p className='text-[#ffd700] text-2xl font-dance mb-2'>&lt;h1&gt;</p>
@@ -64,7 +67,7 @@ export const ContactSide = () =>{
             </div>
                 <p className='text-[#ffd700] text-3xl font-dance my-2'>&lt;/body&gt;</p>
         </div>
-        <div className='flex text-white justify-center items-center text-8xl bg-svg2-pattern bg-no-repeat bg-center'>
+        <div className='flex text-white justify-center items-center text-8xl bg-svg-pattern bg-no-repeat bg-center'>
             <img src={developers} alt='svg-contact' className="ml-2 h-2/4"/>
         </div>
     </div>

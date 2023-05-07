@@ -1,6 +1,6 @@
 import React from 'react';
 import AutoComplete from './autoComplete'
-import Profile from '../../profilepic.png'
+import Profile from '../../public/profilepic.png'
 import {BiRightArrowAlt} from 'react-icons/bi'
 import DownloadButton from './download'
 import {Link} from 'react-router-dom'

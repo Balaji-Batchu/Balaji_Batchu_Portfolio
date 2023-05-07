@@ -16,10 +16,8 @@ export default {
            'open': ['Open Sans', 'sans-serif'],
         },
         backgroundImage: {
-        'hero-pattern': "url('../Contour Lines.svg')",
-        'space-pattern': "url('./spaces (1).jpg')",
-        'svg-pattern': "url('./blobanimation.svg')",
-        'svg2-pattern': "url('./blobanimation2.svg')",
+        'space-pattern': "url('./public/spaces.jpg')",
+        'svg-pattern': "url('./public/blobanimation.svg')",
       },
     },
   },

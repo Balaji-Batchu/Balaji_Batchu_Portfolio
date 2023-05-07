@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Logo from '../../named-logo.png';
+import Logo from '../../public/named-logo.png';
 import {IoIosHome} from 'react-icons/io';
 import {CgProfile} from 'react-icons/cg';
 import {IoMdMail} from 'react-icons/io';
@@ -8,7 +8,7 @@ import {AiOutlineGithub} from 'react-icons/ai';
 import {BsCodeSlash} from 'react-icons/bs';
 import {OtherSide} from './otherSide.jsx';
 import { useState, useEffect } from 'react';
-import Loading from './loader';
+import {Loading} from './loader';
 
 export const Sidebar = () =>{
   const [loading, setLoading] = useState(true);
@@ -17,7 +17,7 @@ export const Sidebar = () =>{
     function setLoadingState() {
       setTimeout(() => {
         setLoading(false);
-      }, 1000);
+      }, 1300);
     };
     setLoadingState();
   }, []);
@@ -43,8 +43,8 @@ export const Sidebar = () =>{
             </div>
 
             <div>
-              <a target="_blank" href='https://www.linkedin.com/in/balajibatchu'><FaLinkedin className="text-gray-300 mx-10 my-8 hover:text-blue-400" size="24"/></a>
-              <a target="_blank" href="https://www.github.com/Balaji507"><AiOutlineGithub className="text-gray-300 mx-10 my-8 hover:text-white" size="24"/></a>
+              <a target="_blank" href='https://www.linkedin.com/in/balajibatchu/'><FaLinkedin className="text-gray-300 mx-10 my-8 hover:text-blue-400" size="24"/></a>
+              <a target="_blank" href="https://www.github.com/Balaji-Batchu/"><AiOutlineGithub className="text-gray-300 mx-10 my-8 hover:text-white" size="24"/></a>
             </div>
           </div>
 
