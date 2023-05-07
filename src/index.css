@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-size: 68.5%;
+}
+
+::selection{
+    color: #0c4a6e;
+    background-color: #cffafe;
+}
+
+body {
+	margin: 0;
+	font-family:300 11px/1.4 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    color: #444;
+    background-color: #331374ff;
+    background-image: url('../spaces (1).jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
