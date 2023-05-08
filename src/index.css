@@ -27,12 +27,10 @@ body {
     display: block;
 }
 
-/* for desktop */
 @media (min-width: 768px) {
   body {
-    background-image: url('../public/spaces.jpg');
+    background-image: url('/spaces.jpg');
     background-color: #331374ff;
-    /* other styles */
   }
 }
 

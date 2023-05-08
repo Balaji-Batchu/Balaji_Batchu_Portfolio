@@ -17,13 +17,13 @@ const projects = [
   },
   {
     title: 'FoodApp',
-    imageSrc: '/public/foodapp.png',
+    imageSrc: '/foodapp.png',
     link: 'https://github.com/Balaji-Batchu/FoodApp',
     live_link: 'https://foodapp.netlify.app'
   },
   {
     title: 'Tenzies Game',
-    imageSrc: '/public/tenzies.PNG',
+    imageSrc: '/tenzies.PNG',
     link: 'https://github.com/Balaji-Batchu/Tenzies-Game',
     live_link: 'https://tenzies.netlify.app'
   },

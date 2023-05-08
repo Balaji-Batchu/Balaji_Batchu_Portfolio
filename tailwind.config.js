@@ -16,8 +16,8 @@ export default {
            'open': ['Open Sans', 'sans-serif'],
         },
         backgroundImage: {
-        'space-pattern': "url('./public/spaces.jpg')",
-        'svg-pattern': "url('./public/blobanimation.svg')",
+        'space-pattern': "url('/spaces.jpg')",
+        'svg-pattern': "url('/blobanimation.svg')",
       },
     },
   },
