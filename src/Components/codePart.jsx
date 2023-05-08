@@ -5,25 +5,25 @@ import {motion} from 'framer-motion'
 const projects = [
   {
     title: 'Prathidhi Naivedhya',
-    imageSrc: '../../public/prathidhi-naivedhya.PNG',
+    imageSrc: '/prathidhi-naivedhya.PNG',
     link: 'https://github.com/Balaji-Batchu/Prathidhi_Naivedhya',
     live_link: 'https://prathidhi-naivedhya.netlify.app'
   },
   {
     title: 'A.I Summarizer',
-    imageSrc: '../../public/A.I_GEN.png',
+    imageSrc: '/A.I_GEN.png',
     link: 'https://github.com/Balaji-Batchu/Summarizer.io',
     live_link: 'https://ai-summarizer.netlify.app'
   },
   {
     title: 'FoodApp',
-    imageSrc: '../../public/foodapp.png',
+    imageSrc: '/public/foodapp.png',
     link: 'https://github.com/Balaji-Batchu/FoodApp',
     live_link: 'https://foodapp.netlify.app'
   },
   {
     title: 'Tenzies Game',
-    imageSrc: '../../public/tenzies.PNG',
+    imageSrc: '/public/tenzies.PNG',
     link: 'https://github.com/Balaji-Batchu/Tenzies-Game',
     live_link: 'https://tenzies.netlify.app'
   },

@@ -4,7 +4,7 @@ import {BouncyText} from './bounce'
 import emailjs from '@emailjs/browser';
 import {IoIosSend} from 'react-icons/io'
 import {Notification} from './notification';
-import developers from '../../public/developers.png'
+import developers from '/developers.png'
 //import contact from '../../public/contacts.png'
 
 export const ContactSide = () =>{
