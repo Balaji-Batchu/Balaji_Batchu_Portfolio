@@ -27,7 +27,7 @@ export const Sidebar = () =>{
       {loading ? <Loading /> :
         <div className="flex bg-space-pattern bg-no-repeat bg-cover">
           {/* side bar */}
-          <div className="flex flex-col h-screen p-3 bg-[#150a56ff] shadow w-40 justify-between py-2">
+          <div className="flex flex-col h-screen p-3 bg-gradient-to-t from-[#331374ff] via-[#190e6aff] to-[#150a56ff] shadow w-40 justify-between py-2">
             <div className="space-y-3">
               <div className="flex flex-col items-center">
                 <img src={Logo} alt="logo" className="bg-transparent h-24"></img>
