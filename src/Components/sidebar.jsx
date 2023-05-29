@@ -9,7 +9,6 @@ import {BsCodeSlash} from 'react-icons/bs';
 import {OtherSide} from './otherSide.jsx';
 import { useState, useEffect } from 'react';
 import {Loading} from './loader';
-import Menu from './menu'
 
 export const Sidebar = () =>{
   const [loading, setLoading] = useState(true);
