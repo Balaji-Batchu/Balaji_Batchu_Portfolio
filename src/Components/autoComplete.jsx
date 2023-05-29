@@ -34,7 +34,7 @@ const Autocomplete = () => {
 
   return (
     <div className="relative w-96">
-      <div className="absolute top-0 left-12 px-4 py-2 text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-red-300 to-[#1b0649ff]  pointer-events-none font-roboto">
+      <div className="absolute top-0 left-12 px-4 py-2 sm:text-xl lg:text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-red-300 to-[#1b0649ff]  pointer-events-none font-roboto">
         {sentences[currentSentenceIndex].substring(0, currentTypingIndex)}
         <span className={classnames({ 'animate-blink': currentTypingIndex === sentences[currentSentenceIndex].length })}>|</span>
       </div>
