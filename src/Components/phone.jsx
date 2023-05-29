@@ -173,9 +173,11 @@ export const Phone = () => {
                     </div>
                 </form>
             </div>
-
+            <Scroll scrollTo="footer"/>
             </div>
-            <Footer />
+            <div id="footer">
+                <Footer />
+            </div>
         </div>
     )
 }
