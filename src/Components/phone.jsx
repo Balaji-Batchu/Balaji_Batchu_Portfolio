@@ -1,6 +1,6 @@
 import React from 'react';
 import Scroll from './scroll'
-import {Link} from 'react-router-dom';
+import Logo from '/named-logo.png';
 import {BiRightArrowAlt} from 'react-icons/bi';
 import DownloadButton from './downloadp';
 import Profile from '/profilepic.png';
@@ -10,7 +10,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import {useState,useRef} from 'react'
 import emailjs from '@emailjs/browser';
 import {IoIosSend} from 'react-icons/io'
-import developers from '/developers.png'
 import Footer from './footer'
 
 
@@ -84,7 +83,11 @@ export const Phone = () => {
     return (
         <div>
         {/*Home Page*/}
-            <div id="home" className='bg-space-pattern bg-no-repeat bg-cover flex flex-col justify-center items-center py-16 px-4 h-screen'>
+                <nav className="flex items-center justify-center text-white p-4 bg-[#0e0733ff] bg-opacity-90 backdrop-filter backdrop-blur-lg">
+                <img src={Logo} className="h-10 rounded-full"/>
+              <h2 className="text font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-yellow-500 font-merri">BALAJI BATCHU</h2>  
+                </nav>
+            <div id="home" className='bg-space-pattern bg-no-repeat bg-cover flex flex-col justify-center items-center pb-16 pt-4 px-4 h-screen'>
                 <img src={Profile} alt='user img' className='md:hidden rounded-full h-56 w-56 outline outline-offset-8 outline-orange-400 ring ring-2 ring-offset-2 ring-teal-300 ring-offset-gray-800 hover:ring-3 hover:cursor-pointer'/>
                 <div className='text-white font-merri pt-10'>
                 <p className='text-xl'>Hi,&nbsp;
