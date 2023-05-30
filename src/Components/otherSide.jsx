@@ -7,11 +7,9 @@ import {Link} from 'react-router-dom'
 
 export const OtherSide = () =>{
     return(
-        <div className="lg:mx-36 ml-8 lg:flex my-16">
-            <div className='flex flex-col justify-center sm:text-2xl'>
-                
-                <div className="flex md:block gap-6 justify-center items-center">
-                    <img src={Profile} alt='user img' className='md:hidden rounded-full h-56 w-56 outline outline-offset-8 outline-orange-400 ring ring-2 ring-offset-2 ring-teal-300 ring-offset-gray-800 hover:ring-3 hover:cursor-pointer'/>
+        <div className="mx-36 ml-8 flex my-16">
+            <div className='flex flex-col justify-center'>                
+                <div className="flex gap-6 justify-center items-center">
                     <div>
                         <p className='text-[#ffd700] lg:text-2xl sm:text-xl font-dance my-2'>&lt;h1&gt;</p>
                         <div className="lg:text-8xl sm:text-2xl font-bold text-white px-4 font-merri">

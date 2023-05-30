@@ -47,10 +47,6 @@ export const Sidebar = () =>{
               <a target="_blank" href="https://www.github.com/Balaji-Batchu/"><AiOutlineGithub className="text-gray-300 mx-10 my-8 hover:text-white" size="24"/></a>
             </div>
           </div>
-
-            <div className="lg:hidden">
-                <Menu />
-            </div>
           {/* main content */}
           <OtherSide />
         </div>
