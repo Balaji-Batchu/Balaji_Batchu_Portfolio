@@ -31,8 +31,8 @@ function DownloadButton() {
       <a
         href={resume}
         download
-        className=" outline outline-yellow-100 hover:bg-yellow-300 hover:text-black hover:outline-offset-2 outline-yellow-500 hover:outline-yellow-200 font-lato tracking-widest text-white font-bold py-2 px-4 rounded flex items-center justify-center"
         onClick={handleDownloadClick}
+        className=" outline outline-yellow-100 hover:bg-yellow-300 hover:text-black hover:outline-offset-2 outline-yellow-500 hover:outline-yellow-200 font-lato tracking-widest text-white font-bold py-2 px-4 rounded flex items-center justify-center"
       >
         <span className="ml-2 pr-3">{buttonText}</span>
         {buttonIcon}

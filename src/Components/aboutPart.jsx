@@ -5,7 +5,7 @@ import {BouncyText} from './bounce'
 export const AboutSide = () =>{
     return(
         <div className="flex bg-space-pattern bg-cover bg-no-repeat">
-        <div className="mx-36 flex flex-col my-6 w-6/12">
+        <div className="mx-36 flex flex-col my-6 w-6/12 justify-center">
             <p className='text-[#ffd700] text-2xl font-dance my-2'>&lt;h1&gt;</p>
             <div>
                 <BouncyText text="About" />

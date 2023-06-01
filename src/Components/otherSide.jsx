@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 
 export const OtherSide = () =>{
     return(
-        <div className="mx-36 ml-8 flex my-16">
+        <div className="mx-36 flex my-16">
             <div className='flex flex-col justify-center'>                
                 <div className="flex gap-6 justify-center items-center">
                     <div>

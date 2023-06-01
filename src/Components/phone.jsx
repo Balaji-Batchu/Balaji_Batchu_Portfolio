@@ -146,7 +146,8 @@ export const Phone = () => {
 
         {/* contact page */}
             <div id="contact" className='bg-space-pattern bg-no-repeat bg-cover flex flex-col justify-center items-center py-16 px-6 h-screen'>
-                <p className='font-merri text-yellow-400 text-2xl my-6'>Contact Me</p>
+                <p className='font-merri text-yellow-400 text-2xl my-2'>Contact Me</p>
+                <p className="text-sky-100 text-justify leading-loose my-2 mx-4 tracking-wide">I am intrested in freelance opportunities - especially ambitious or large projects. However, if you have other request or question don't hesitate to contact me using below form either.</p>
 
 
                 <div className="min-w-64 w-4/5 outline outline-2 outline-teal-400 rounded-xl">
@@ -165,10 +166,10 @@ export const Phone = () => {
                     </div>
                     <div className="mb-4 px-4">
                         <label htmlFor="message" className="block mb-2 text-yellow-400 font-open">Message</label>
-                        <textarea name="message" id="message" rows="3" className="w-full px-6 py-2 border rounded-md focus:outline-none focus:border-sky-400 border-2 text-black font-bold font-merri"></textarea>
+                        <textarea name="message" id="message" rows="2" className="w-full px-6 py-2 border rounded-md focus:outline-none focus:border-sky-400 border-2 text-black font-bold font-merri"></textarea>
                     </div>
                     <div className="text-center flex items-center justify-center">
-                        <button type="submit" className="flex items-center gap-2 px-4 py-2 font-bold text-[#1a0544ff] bg-amber-400 rounded-md hover:bg-amber-600 hover:text-white hover:font-bold focus:outline-none focus:bg-amber-500">Send <IoIosSend /></button>
+                        <button type="submit" className="flex items-center gap-1 px-4 py-2 font-bold text-[#1a0544ff] bg-amber-400 rounded-md hover:bg-amber-600 hover:text-white hover:font-bold focus:outline-none focus:bg-amber-500">Send <IoIosSend /></button>
 
                     </div>
                 </form>
