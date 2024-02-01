@@ -4,7 +4,7 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 
 ## Live Demo
 
-You can check out the live demo of the portfolio at https://balaji-batchu-portfolio.netlify.app
+You can check out the live demo of the portfolio at https://balajibatchu-portfolio.netlify.app
 
 ### Features:
 
